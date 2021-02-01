@@ -1,0 +1,12 @@
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-template-rows: 2px;
+  gap: 0 2px;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 250px;
+  grid-row-end: span 2;
+}
